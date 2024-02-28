@@ -1,0 +1,18 @@
+-d = elliminar
+
+Git merge con conflictos 
+primero solucionar conflictos quedandonos con lo que nos interesa 
+segundo hacer el commit en la rama donde estan los cambios
+y listo se puede hacer el merge ahora si sin conflictos
+
+tag o etiquetas
+
+git tag nombre-tag
+git tag -a v2.0.0 -m "algun mensaje" -> se le asignara al ultimo commit que exista
+
+asigarle un tag a un commit especifico
+git tag -a nombre-tag #commit
+
+git stash = guarda los cambios localmente en una caja de forma temporal
+
+git stash pop
